@@ -11,3 +11,8 @@ PhanSo::PhanSo(int tu, int mau) {
 PhanSo::~PhanSo() {
 
 }
+
+void PhanSo::print_value() {
+    cout<<"Phan so:"<<endl;
+    cout<<m_tu<<"/"<<m_mau;
+}
