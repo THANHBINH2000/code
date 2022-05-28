@@ -4,12 +4,14 @@
 
 #ifndef CODE0_PHANSO_H
 #define CODE0_PHANSO_H
-
+#include <iostream>
+using namespace std;
 
 class PhanSo {
 public:
     PhanSo(int tu, int mau);
     ~PhanSo();
+    void print_value();
 
 private:
     int m_tu;
